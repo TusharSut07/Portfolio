@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="My personal portfolio">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header" id="home">
+    <img src="my_photo.png" alt="My Photo" class="profile-photo">
+    <h1>Tushar Sutradhar</h1>
+    <p>Computer Science Engineering Student</p>
+    <p>DSA | Web Development | Programming</p>
+
+    <p class="links">
+        <a href="#about">About</a> |
+        <a href="#education">Education</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#projects">Projects</a> |
+        <a href="#contact">Contact</a>
+    </p>
+</div>
+
+<div class="section" id="about">
+    <h2>About Me</h2>
+    <p>
+        Hello! I am a Computer Science Engineering student interested in programming,
+        web development, artificial intelligence and problem solving. I enjoy learning new technologies
+        and creating useful projects.
+    </p>
+</div>
+
+<div class="section" id="education">
+    <h2>Education</h2>
+
+    <table>
+        <tr>
+            <th>Qualification</th>
+            <th>Institute</th>
+            <th>Year</th>
+            <th>Percentage/CGPA</th>
+        </tr>
+        <tr>
+            <td>Class 10</td>
+            <td>Sanmati Higher Secondary School</td>
+            <td>2021</td>
+            <td>85.67%</td>
+        </tr>
+        <tr>
+            <td>Class 12</td>
+            <td>The Juniors' College</td>
+            <td>2023</td>
+            <td>71.80%</td>
+        </tr>
+        <tr>
+            <td>B.Tech</td>
+            <td>Indore Institute of Science and Technology</td>
+            <td>2024 - Present</td>
+            <td>7.30</td>
+        </tr>
+        
+    </table>
+</div>
+
+<div class="section" id="skills">
+    <h2>My Skills</h2>
+
+    <div class="box">
+        <h3>Technical Skills</h3>
+        <ul>
+            
+            <li>C / C++</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Data Structures and Algorithms</li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h3>Other Skills</h3>
+        <ol>
+            <li>Problem Solving</li>
+            <li>Team Work</li>
+            <li>Quick Learning</li>
+            <li>Time Management</li>
+            <li>Self - Learning</li>
+            <li>Creativity</li>
+            <li>Task PLanning</li>
+        </ol>
+    </div>
+</div>
+
+<div class="section" id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project">
+        <h3>Sports Management System</h3>
+        <p>A simple sports management system for institute made using HTML, CSS and Javascript.</p>
+        <a href="#contact">View Project</a>
+    </div>
+
+    <div class="project">
+        <h3>Library Management System</h3>
+        <p>A basic project for managing books and student records.</p>
+        <a href="#contact">View Project</a>
+    </div>
+
+    <div class="project">
+        <h3>AI based Code Review & Optimization Assistant</h3>
+        <p>A SaaS web dashboard that acts like a virtual senior developer by reviewing, explaining, and optimizing user-submitted code.</p>
+        <a href="#contact">View Project</a>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Certificates</h2>
+
+    <table>
+        <tr>
+            <th>Certificate</th>
+            <th>Organization</th>
+            <th>Year</th>
+        </tr>
+        
+        <tr>
+            <td>Introduction to Cybersecurity</td>
+            <td>CISCO</td>
+            <td>2026</td>
+        </tr>
+        <tr>
+            <td>Introduction to Modern AI</td>
+            <td>CISCO</td>
+            <td>2026</td>
+        </tr>
+        <tr>
+            <td>Introduction to Data Science</td>
+            <td>CISCO</td>
+            <td>2026</td>
+        </tr>
+        <tr>
+            <td>Programming, DSA using Python</td>
+            <td>NPTEL</td>
+            <td>2026</td>
+        </tr>
+    </table>
+</div>
+
+<div class="section" id="contact">
+    <h2>Contact Me</h2>
+
+    <p><b>Email:</b> tusharsutradhar610@gmail.com</p>
+    <p><b>Phone:</b> +91 9993639729</p>
+    <p><b>Location:</b> Indore - 452001, Madhya Pradesh</p>
+
+    <h3>Send Me a Message</h3>
+
+    <form action="#">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+
+        <label for="reason">Reason:</label><br>
+        <select id="reason" name="reason">
+            <option>Project Discussion</option>
+            <option>College Work</option>
+            <option>General Message</option>
+        </select><br><br>
+
+        <label>Preferred Contact:</label><br>
+        <input type="radio" id="emailcontact" name="contact" value="email">
+        <label for="emailcontact">Email</label>
+
+        <input type="radio" id="phonecontact" name="contact" value="phone">
+        <label for="phonecontact">Phone</label><br><br>
+
+        <label>Interests:</label><br>
+        <input type="checkbox" id="web" name="interest" value="web">
+        <label for="web">Web Development</label><br>
+
+        <input type="checkbox" id="dsa" name="interest" value="dsa">
+        <label for="dsa">DSA</label><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Send Message">
+    </form>
+</div>
+
+<div class="footer">
+    <p>© 2026 Your Name | My Portfolio</p>
+    <a href="#home">Back to Top</a>
+</div>
+
+</body>
+</html>
